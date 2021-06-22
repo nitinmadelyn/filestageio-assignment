@@ -63,7 +63,9 @@ once the app is running you can open: [http://localhost:3000](http://localhost:3
 
 ### <u>Backend</u>
 
-To start the api open the <b>terminal/command line</b> go to <b>backend</b> folder and execute `npm install` then:
+Open `./backend/src/config/config.js` file and replace MongoDB connection string in `dbConnectString` variable.
+
+To run the api open the <b>terminal/command line</b> go to <b>backend</b> folder and execute `npm install` then:
 
 `npm start`
 
