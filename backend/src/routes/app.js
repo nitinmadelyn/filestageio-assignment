@@ -13,7 +13,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use((req, res, next) => {
   process.on("uncaughtException", function (err) {
-    console.log(err);
     superagent
     .post(config.apiEndPoint+'log')
     .send({"error": err}) 

@@ -11,7 +11,7 @@ context("Sorting todos - drag and drop", () => {
     cy.get(".infinite-scroll-component", { position: "bottom" })
       .children(".MuiBox-root")
       .eq(3)
-      .drag("#todo-0b6feb75-fa78-4e93-ae8f-43ad3c6f73b2", {
+      .drag("#todo-28e5a1d1-3e6f-42fc-893f-f38481cd4e6f", {
         force: true,
       });
     cy.wait(500);

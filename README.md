@@ -1,5 +1,5 @@
 # To Do
-This web application is a simple application to manage a list of things to do.
+This web application is a simple application to manage a list of things to do
 
 ## Features
   1. Sortable Task - User can drag & drop to sort todo

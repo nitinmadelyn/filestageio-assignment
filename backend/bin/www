@@ -15,7 +15,7 @@ app.set("port", config.port);
 
 try {
   database.connect();
-  console.log("connected to database");
+  console.info("connected to database");
 } catch (error) {
   onError(error);
 }
